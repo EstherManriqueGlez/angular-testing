@@ -20,8 +20,7 @@ describe('CoursesCardListComponent', () => {
       imports: [
         CoursesModule,
       ],
-    })
-      .compileComponents()
+    }).compileComponents()
       .then(() => {
         const fixture = TestBed.createComponent(CoursesCardListComponent);
         component = fixture.componentInstance;
